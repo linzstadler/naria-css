@@ -1,4 +1,4 @@
-// https://github.com/linzstadler/naria-css
+/*https://github.com/linzstadler/naria-css*/
 
 .text-left {
   text-align: left;
@@ -3324,11 +3324,17 @@
 .container {
   width: 100%;
 }
-
-@media (min-width: 576px) {
+@media (min-width: 480px) {
 
   .container {
-    max-width: 576px;
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
   }
 }
 
@@ -3339,24 +3345,24 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 
   .container {
-    max-width: 992px;
+    max-width: 1024px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
 
 
   .container {
-    max-width: 1200px;
+    max-width: 1280px;
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1536px) {
 
   .container {
-    max-width: 1400px;
+    max-width: 1536px;
   }
 }

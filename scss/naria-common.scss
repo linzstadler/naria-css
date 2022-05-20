@@ -1,0 +1,77 @@
+
+@import "../naria";
+// variables
+$unit: rem;
+// mixins
+@mixin rounded() {
+  $selector: '.rounded-';
+  @for $i from 0 through 5 {
+    @if $i == 0 {
+      #{$selector}#{$i} {
+        @include borderRadius($i)
+      }
+    } @else {
+      #{$selector}#{$i} {
+        @include borderRadius($i)
+      }
+    }
+
+  }
+}
+
+.text-left {
+  @include textAlign(left);
+}
+
+.text-right {
+  @include textAlign(right);
+}
+
+.text-center {
+  @include textAlign(center);
+}
+
+
+
+@media (min-width: 480px) {
+
+  .container {
+    @include maxWidth(480px);
+  }
+}
+
+@media (min-width: 640px) {
+
+  .container {
+    @include maxWidth(640px);
+  }
+}
+
+@media (min-width: 768px) {
+
+  .container {
+    @include maxWidth(768px);
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .container {
+    @include maxWidth(1024px);
+  }
+}
+
+@media (min-width: 1280px) {
+
+
+  .container {
+    @include maxWidth(1280px);
+  }
+}
+
+@media (min-width: 1536px) {
+
+  .container {
+    @include maxWidth(1536px);
+  }
+}

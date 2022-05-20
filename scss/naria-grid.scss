@@ -1,0 +1,59 @@
+@import "../naria";
+// variables
+$columns: 24;
+$unit: rem;
+// mixins
+@mixin col-x($value: null) {
+  $selector: '.col-';
+  @if $value {
+    $selector: '.col-#{$value}-';
+  }
+  @for $i from 0 through $columns {
+    @if $i == 0 {
+      #{$selector}#{$i} {
+        @include display(none)
+      }
+    } @else {
+      #{$selector}#{$i} {
+        @include display(block);
+        @include flex(0 0 ($i * 100 / $columns));
+        @include maxWidth($i * 100 / $columns);
+      }
+    }
+
+  }
+}
+
+// classes
+.row {
+  @include display(flex);
+  @include flexFlow(row wrap);
+}
+
+@include col-x();
+
+
+
+@media (min-width: 480px) {
+  @include col-x(xsm);
+}
+
+@media (min-width: 640px) {
+  @include col-x(sm);
+}
+
+@media (min-width: 768px) {
+  @include col-x(md);
+}
+
+@media (min-width: 1024px) {
+  @include col-x(lg);
+}
+
+@media (min-width: 1280px) {
+  @include col-x(xl);
+}
+
+@media (min-width: 1536px) {
+  @include col-x(xxl);
+}

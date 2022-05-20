@@ -1,0 +1,1093 @@
+/*! Naria v0.0.1 | github.com/linzstadler/naria-css | 2022 */
+
+@mixin borderRadius($value) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+}
+
+@mixin accentColor($value) {
+  accent-color: $value;
+}
+
+@mixin alignContent($value) {
+  align-content: $value;
+}
+
+@mixin alignItems($value) {
+  align-items: $value;
+}
+
+@mixin alignSelf($value) {
+  align-self: $value;
+}
+
+@mixin all($value) {
+  all: $value;
+}
+
+@mixin animation($value) {
+  animation: $value;
+}
+
+@mixin appearance($value) {
+  -webkit-appearance: $value;
+  -moz-appearance: $value;
+  appearance: $value;
+}
+
+@mixin aspectRatio($value) {
+  aspect-ratio: $value;
+}
+
+@mixin backdropFilter($value) {
+  backdrop-filter: $value;
+}
+
+@mixin backfaceVisibility($value) {
+  backface-visibility: $value;
+}
+
+@mixin background($value) {
+  background: $value;
+}
+
+@mixin backgroundAttachment($value) {
+  background-attachment: $value;
+}
+
+@mixin backgroundBlendMode($value) {
+  background-blend-mode: $value;
+}
+
+@mixin backgroundClip($value) {
+  background-clip: $value;
+}
+
+@mixin backgroundColor($value) {
+  background-color: $value;
+}
+
+@mixin backgroundImage($value) {
+  background-image: url($value);
+}
+
+@mixin boxSizing($value) {
+  box-sizing: $value;
+}
+
+@mixin backgroundPosition($value) {
+  background-position: $value;
+}
+
+@mixin backgroundRepeat($value) {
+  background-repeat: $value;
+}
+
+@mixin backgroundSize($value) {
+  background-size: $value;
+}
+
+@mixin bleed($value) {
+  bleed: $value;
+}
+
+@mixin blockOverflow($value) {
+  block-overflow: $value;
+}
+
+@mixin blockSize($value) {
+  block-size: $value;
+}
+
+@mixin border($value) {
+  border: $value;
+}
+
+@mixin borderBlock($value) {
+  border-block: $value;
+}
+
+@mixin borderBoundary($value) {
+  border-boundary: $value;
+}
+
+@mixin borderCollapse($value) {
+  border-collapse: $value;
+}
+
+@mixin borderImage($value) {
+  border-image: $value;
+}
+
+@mixin borderImageSource($value) {
+  border-image-source: url($value);
+}
+
+@mixin borderImageSlice($value) {
+  border-image-slice: $value;
+}
+
+@mixin borderImageWidth($value) {
+  border-image-width: $value;
+}
+
+@mixin borderImageOutset($value) {
+  border-image-outset: $value;
+}
+
+@mixin borderImageRepeat($value) {
+  border-image-repeat: $value;
+}
+
+@mixin borderInline($value) {
+  border-inline: $value;
+}
+
+@mixin borderCollapse($value) {
+  border-collapse: $value;
+}
+
+@mixin top($value) {
+  top: $value
+}
+
+@mixin right($value) {
+  right: $value
+}
+
+@mixin bottom($value) {
+  bottom: $value
+}
+
+@mixin left($value) {
+  left: $value
+}
+
+@mixin boxDecorationBreak($value) {
+  box-decoration-break: $value
+}
+
+@mixin boxShadow($value) {
+  -webkit-box-shadow: $value;
+  -moz-box-shadow: $value;
+  box-shadow: $value;
+}
+
+@mixin boxSizing($value) {
+  box-sizing: $value;
+}
+
+@mixin breakInside($value) {
+  -webkit-column-break-inside: $value;
+  page-break-inside: $value;
+  break-inside: $value;
+}
+
+@mixin captionSide($value) {
+  caption-side: $value;
+}
+
+@mixin caret($value) {
+  caret: $value;
+}
+
+@mixin caretColor($value) {
+  caret-color: $value;
+}
+
+@mixin caretShape($value) {
+  caret-shape: $value;
+}
+
+@mixin clear($value) {
+  clear: $value;
+}
+
+@mixin clipPath($value) {
+  clip-path: $value;
+}
+
+@mixin color($value) {
+  color: $value;
+}
+
+@mixin colorAdjust($value) {
+  color-adjust: $value;
+}
+
+@mixin columnFill($value) {
+  -moz-column-fill: $value;
+  column-fill: $value;
+}
+
+@mixin columnCount($value) {
+  -webkit-column-count: $value;
+  -moz-column-count: $value;
+  column-count: $value;
+}
+
+@mixin columnGap($value) {
+  -webkit-column-gap: $value;
+  -moz-column-gap: $value;
+  column-gap: $value;
+}
+
+@mixin columnRule($value) {
+  -webkit-column-rule: $value;
+  -moz-column-rule: $value;
+  column-rule: $value;
+}
+
+@mixin columnRuleColor($value) {
+  -webkit-column-rule-color: $value;
+  -moz-column-rule-color: $value;
+  column-rule-color: $value;
+}
+
+@mixin columnRuleStyle($value) {
+  -webkit-column-rule-style: $value;
+  -moz-column-rule-style: $value;
+  column-rule-style: $value;
+}
+
+@mixin columnRuleWidth($value) {
+  -webkit-column-rule-width: $value;
+  -moz-column-rule-width: $value;
+  column-rule-width: $value;
+}
+
+@mixin columnWidth($value) {
+  -webkit-column-width: $value;
+  -moz-column-width: $value;
+  column-width: $value;
+}
+
+@mixin columnSpan($value) {
+  -webkit-column-span: $value;
+  column-span: $value;
+}
+
+@mixin columns($value) {
+  columns: $value;
+}
+
+@mixin contain($value) {
+  contain: $value;
+}
+
+@mixin content($value) {
+  content: $value;
+}
+
+@mixin contentVisibility($value) {
+  content-visibility: $value;
+}
+
+@mixin counterReset($value) {
+  counter-reset: $value;
+}
+
+@mixin counterIncrement($value) {
+  counter-increment: $value;
+}
+
+@mixin counterSet($value) {
+  counter-set: $value;
+}
+
+@mixin cursor($value) {
+  cursor: $value;
+}
+
+@mixin direction($value) {
+  direction: $value;
+}
+
+@mixin display($value) {
+  display: $value;
+}
+
+@mixin emptyCells($value) {
+  empty-cells: $value;
+}
+
+@mixin fill($value) {
+  fill: $value;
+}
+
+@mixin filter($value) {
+  filter: $value;
+}
+
+@mixin flex($value) {
+  flex: $value;
+}
+
+@mixin flexBasis($value) {
+  flex-basis: $value;
+}
+
+@mixin flexDirection($value) {
+  flex-direction: $value;
+}
+
+@mixin flexFlow($value) {
+  flex-flow: $value;
+}
+
+@mixin flexGrow($value) {
+  flex-grow: $value;
+}
+
+@mixin flexShrink($value) {
+  flex-shrink: $value;
+}
+
+@mixin flexWrap($value) {
+  flex-wrap: $value;
+}
+
+@mixin float($value) {
+  float: $value;
+}
+
+@mixin font($value) {
+  font: $value;
+}
+
+@mixin fontDisplay($value) {
+  font-display: $value;
+}
+
+@mixin fontFamily($value) {
+  font-family: $value;
+}
+
+@mixin fontFeatureSettings($value) {
+  font-feature-settings: $value;
+}
+
+@mixin fontKerning($value) {
+  font-kerning: $value;
+}
+
+@mixin fontOpticalSizing($value) {
+  font-optical-sizing: $value;
+}
+
+@mixin fontSize($value) {
+  font-size: $value;
+}
+
+@mixin fontSizeAdjust($value) {
+  font-size-adjust: $value;
+}
+
+@mixin fontStretch($value) {
+  font-stretch: $value;
+}
+
+@mixin fontStyle($value) {
+  font-style: $value;
+}
+
+@mixin fontSynthesis($value) {
+  font-synthesis: $value;
+}
+
+@mixin fontVariant($value) {
+  font-variant: $value;
+}
+
+@mixin fontVariantNumeric($value) {
+  font-variant-numeric: $value;
+}
+
+@mixin fontWeight($value) {
+  font-weight: $value;
+}
+
+@mixin gap($value) {
+  gap: $value;
+}
+
+@mixin gridRow($value) {
+  grid-row: $value;
+}
+
+@mixin gridColumn($value) {
+  grid-column: $value;
+}
+
+@mixin gridTemplateColumns($value) {
+  grid-template-columns: $value;
+}
+
+@mixin gridTemplateRows($value) {
+  grid-template-rows: $value;
+}
+
+@mixin hangingPunctuation($value) {
+  hanging-punctuation: $value;
+}
+
+@mixin height($value) {
+  height: $value;
+}
+
+@mixin hyphenateLimitChars($value) {
+  hyphenate-limit-chars: $value;
+}
+
+@mixin hyphens($value) {
+  hyphens: $value;
+}
+
+@mixin imageRendering($value) {
+  image-rendering: $value;
+}
+
+@mixin initialLetter($value) {
+  initial-letter: $value;
+}
+
+@mixin inlineSize($value) {
+  inline-size: $value;
+}
+
+@mixin inset($value) {
+  inset: $value;
+}
+
+@mixin insetBlock($value) {
+  inset-block: $value;
+}
+
+@mixin insetBlockEnd($value) {
+  inset-block-end: $value;
+}
+
+@mixin insetBlockStart($value) {
+  inset-block-start: $value;
+}
+
+@mixin insetInline($value) {
+  inset-inline: $value;
+}
+
+@mixin insetInlineEnd($value) {
+  inset-inline-end: $value;
+}
+
+@mixin insetInlineStart($value) {
+  inset-inline-start: $value;
+}
+
+@mixin isolation($value) {
+  isolation: $value;
+}
+
+@mixin justifyContent($value) {
+  justify-content: $value;
+}
+
+@mixin justifyItems($value) {
+  justify-items: $value;
+}
+
+@mixin justifySelf($value) {
+  justify-self: $value;
+}
+
+@mixin letterSpacing($value) {
+  letter-spacing: $value;
+}
+
+@mixin lineBreak($value) {
+  line-break: $value;
+}
+
+@mixin lineClamp($value) {
+  line-clamp: $value;
+}
+
+@mixin lineHeight($value) {
+  line-height: $value;
+}
+
+@mixin listStyle($value) {
+  list-style: $value;
+}
+
+@mixin margin($value) {
+  margin: $value;
+}
+
+@mixin marginTop($value) {
+  margin-top: $value;
+}
+
+@mixin marginRight($value) {
+  margin-right: $value;
+}
+
+@mixin marginBottom($value) {
+  margin-bottom: $value;
+}
+
+@mixin marginLeft($value) {
+  margin-left: $value;
+}
+
+@mixin marginBlock($value) {
+  margin-block: $value;
+}
+
+@mixin marginBlockEnd($value) {
+  margin-block-end: $value;
+}
+
+@mixin marginBlockStart($value) {
+  margin-block-start: $value;
+}
+
+@mixin marginInline($value) {
+  margin-inline: $value;
+}
+
+@mixin marginInlineEnd($value) {
+  margin-inline-end: $value;
+}
+
+@mixin marginInlineStart($value) {
+  margin-inline-start: $value;
+}
+
+@mixin mask($value) {
+  mask: $value;
+}
+
+@mixin maskBorder($value) {
+  mask-border: $value;
+}
+
+@mixin maskClip($value) {
+  mask-clip: $value;
+}
+
+@mixin maskComposite($value) {
+  mask-composite: $value;
+}
+
+@mixin maskMode($value) {
+  mask-mode: $value;
+}
+
+@mixin maskOrigin($value) {
+  mask-origin: $value;
+}
+
+@mixin maskPosition($value) {
+  mask-position: $value;
+}
+
+@mixin mask-repeat($value) {
+  mask-repeat: $value;
+}
+
+@mixin maskSize($value) {
+  mask-size: $value;
+}
+
+@mixin maskType($value) {
+  mask-type: $value;
+}
+
+@mixin maxHeight($value) {
+  max-height: $value;
+}
+
+@mixin maxInlineSize($value) {
+  max-inline-size: $value;
+}
+
+@mixin maxWidth($value) {
+  max-width: $value;
+}
+
+@mixin minHeight($value) {
+  min-height: $value;
+}
+
+@mixin minWidth($value) {
+  min-width: $value;
+}
+
+@mixin mixBlendMode($value) {
+  mix-blend-mode: $value;
+}
+
+
+@mixin objectFit($value) {
+  object-fit: $value;
+}
+
+
+@mixin objectPosition($value) {
+  object-position: $value;
+}
+
+@mixin offsetAnchor($value) {
+  offset-anchor: $value;
+}
+
+@mixin offsetDistance($value) {
+  offset-distance: $value;
+}
+
+@mixin offsetPath($value) {
+  offset-path: $value;
+}
+
+@mixin offsetRotate($value) {
+  offset-rotate: $value;
+}
+
+@mixin opacity($value) {
+  opacity: $value;
+}
+
+@mixin order($value) {
+  order: $value;
+}
+
+@mixin orphans($value) {
+  orphans: $value;
+}
+
+@mixin outline($value) {
+  outline: $value;
+}
+
+@mixin outlineColor($value) {
+  outline-color: $value;
+}
+
+@mixin outlineOffset($value) {
+  outline-offset: $value;
+}
+
+@mixin outlineStyle($value) {
+  outline-style: $value;
+}
+
+@mixin overflow($value) {
+  overflow: $value;
+}
+
+@mixin overflowAnchor($value) {
+  overflow-anchor: $value;
+}
+
+@mixin overflowClipMargin($value) {
+  overflow-clip-margin: $value;
+}
+
+@mixin overflowWrap($value) {
+  overflow-wrap: $value;
+}
+
+@mixin overscrollBehavior($value) {
+  overscroll-behavior: $value;
+}
+
+@mixin padding($value) {
+  padding: $value;
+}
+
+@mixin paddingTop($value) {
+  padding-top: $value;
+}
+
+@mixin paddingRight($value) {
+  padding-right: $value;
+}
+
+@mixin paddingBottom($value) {
+  padding-bottom: $value;
+}
+
+@mixin paddingLeft($value) {
+  padding-left: $value;
+}
+
+@mixin paddingBlock($value) {
+  padding-block: $value;
+}
+
+@mixin paddingInline($value) {
+  padding-inline: $value;
+}
+
+@mixin pageBreak($value) {
+  page-break: $value;
+}
+
+@mixin paintOrder($value) {
+  paint-order: $value;
+}
+
+@mixin perspective($value) {
+  perspective: $value;
+}
+
+@mixin perspectiveOrigin($value) {
+  perspective-origin: $value;
+}
+
+@mixin placeContent($value) {
+  place-content: $value;
+}
+
+@mixin placeItems($value) {
+  place-items: $value;
+}
+
+@mixin placeSelf($value) {
+  place-self: $value;
+}
+
+@mixin pointerEvents($value) {
+  pointer-events: $value;
+}
+
+@mixin position($value) {
+  position: $value;
+}
+
+@mixin quotes($value) {
+  quotes: $value;
+}
+
+@mixin resize($value) {
+  resize: $value;
+}
+
+@mixin rotate($value) {
+  rotate: $value;
+}
+
+@mixin rowGap($value) {
+  row-gap: $value;
+}
+
+@mixin scale($value) {
+  scale: $value;
+}
+
+@mixin scrollBehavior($value) {
+  scroll-behavior: $value;
+}
+
+@mixin scrollMargin($value) {
+  scroll-margin: $value;
+}
+
+@mixin scrollMarginTop($value) {
+  scroll-margin-top: $value;
+}
+
+@mixin scrollMarginRight($value) {
+  scroll-margin-right: $value;
+}
+
+@mixin scrollMarginBottom($value) {
+  scroll-margin-bottom: $value;
+}
+
+@mixin scrollMarginLeft($value) {
+  scroll-margin-left: $value;
+}
+
+@mixin scrollPaddingTop($value) {
+  scroll-padding-top: $value;
+}
+
+@mixin scrollPaddingRight($value) {
+  scroll-padding-right: $value;
+}
+
+@mixin scrollPaddingBottom($value) {
+  scroll-padding-bottom: $value;
+}
+
+@mixin scrollPaddingLeft($value) {
+  scroll-padding-left: $value;
+}
+
+@mixin scrollSnapAlign($value) {
+  scroll-snap-align: $value;
+}
+
+@mixin scrollSnapStop($value) {
+  scroll-snap-stop: $value;
+}
+
+@mixin scrollSnapType($value) {
+  scroll-snap-type: $value;
+}
+
+@mixin scrollbarColor($value) {
+  scrollbar-color: $value;
+}
+
+@mixin scrollbarGutter($value) {
+  scrollbar-gutter: $value;
+}
+
+@mixin scrollbarWidth($value) {
+  scrollbar-width: $value;
+}
+
+@mixin shapeImageThreshold($value) {
+  shape-image-threshold: $value;
+}
+
+@mixin shapeMargin($value) {
+  shape-margin: $value;
+}
+
+@mixin shapeOutside($value) {
+  shape-outside: $value;
+}
+
+@mixin stroke($value) {
+  stroke: $value;
+}
+
+@mixin strokeDasharray($value) {
+  stroke-dasharray: $value;
+}
+
+@mixin strokeDashoffset($value) {
+  stroke-dashoffset: $value;
+}
+
+@mixin strokeLinecap($value) {
+  stroke-linecap: $value;
+}
+
+@mixin strokeLinejoin($value) {
+  stroke-linejoin: $value;
+}
+
+@mixin strokeWidth($value) {
+  stroke-width: $value;
+}
+
+@mixin tabSize($value) {
+  tab-size: $value;
+}
+
+@mixin tableLayout($value) {
+  table-layout: $value;
+}
+
+@mixin textAlign($value) {
+  text-align: $value;
+}
+
+@mixin textAlignLast($value) {
+  text-align-last: $value;
+}
+
+@mixin textCombineUpright($value) {
+  text-combine-upright: $value;
+}
+
+@mixin textDecoration($value) {
+  text-decoration: $value;
+}
+
+@mixin textDecorationColor($value) {
+  text-decoration-color: $value;
+}
+
+@mixin textDecorationLine($value) {
+  text-decoration-line: $value;
+}
+
+@mixin textDecorationSkip($value) {
+  text-decoration-skip: $value;
+}
+
+@mixin textDecorationSkipInk($value) {
+  text-decoration-skip-ink: $value;
+}
+
+@mixin textDecorationStyle($value) {
+  text-decoration-style: $value;
+}
+
+@mixin textDecorationThickness($value) {
+  text-decoration-thickness: $value;
+}
+
+@mixin textEmphasis($value) {
+  text-emphasis: $value;
+}
+
+@mixin textIndent($value) {
+  text-indent: $value;
+}
+
+@mixin textJustify($value) {
+  text-justify: $value;
+}
+
+@mixin textOrientation($value) {
+  text-orientation: $value;
+}
+
+@mixin textOverflow($value) {
+  text-overflow: $value;
+}
+
+@mixin textRendering($value) {
+  text-rendering: $value;
+}
+
+@mixin textShadow($value) {
+  text-shadow: $value;
+}
+
+@mixin textStroke($value) {
+  text-stroke: $value;
+}
+
+@mixin textTransform($value) {
+  text-transform: $value;
+}
+
+@mixin textUnderlineOffset($value) {
+  text-underline-offset: $value;
+}
+
+@mixin textUnderlinePosition($value) {
+  text-underline-position: $value;
+}
+
+@mixin touchAction($value) {
+  touch-action: $value;
+}
+
+@mixin transform($value) {
+  transform: $value;
+}
+
+@mixin transformOrigin($value) {
+  transform-origin: $value;
+}
+
+@mixin transformStyle($value) {
+  transform-style: $value;
+}
+
+@mixin transition($value) {
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  -o-transition: $value;
+  transition: $value;
+}
+
+@mixin transitionDelay($value) {
+  -webkit-transition-delay: $value;
+  -moz-transition-delay: $value;
+  -o-transition-delay: $value;
+  transition-delay: $value;
+}
+
+@mixin transitionDuration($value) {
+  -webkit-transition-duration: $value;
+  -moz-transition-duration: $value;
+  -o-transition-duration: $value;
+  transition-duration: $value;
+}
+
+@mixin transitionProperty($value) {
+  -webkit-transition-property: $value;
+  -moz-transition-property: $value;
+  -o-transition-property: $value;
+  transition-property: $value;
+}
+
+@mixin transitionTimingFunction($value) {
+  -webkit-transition-timing-function: $value;
+  -moz-transition-timing-function: $value;
+  -o-transition-timing-function: $value;
+  transition-timing-function: $value;
+}
+
+@mixin translate($value) {
+  translate: $value;
+}
+
+@mixin unicodeBidi($value) {
+  unicode-bidi: $value;
+}
+
+@mixin unicodeRange($value) {
+  unicode-range: $value;
+}
+
+@mixin userSelect($value) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
+
+@mixin verticalAlign($value) {
+  vertical-align: $value;
+}
+
+@mixin visibility($value) {
+  visibility: $value;
+}
+
+@mixin whiteSpace($value) {
+  white-space: $value;
+}
+
+@mixin widows($value) {
+  widows: $value;
+}
+
+@mixin width($value) {
+  width: $value;
+}
+
+@mixin willChange($value) {
+  will-change: $value;
+}
+
+@mixin wordBreak($value) {
+  word-break: $value;
+}
+
+@mixin wordSpacing($value) {
+  word-spacing: $value;
+}
+
+@mixin writingMode($value) {
+  writing-mode: $value;
+}
+
+@mixin zIndex($value) {
+  z-index: $value;
+}
+
+@mixin zoom($value) {
+  zoom: $value;
+}
